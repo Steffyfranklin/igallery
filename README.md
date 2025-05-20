@@ -35,7 +35,7 @@ image.html
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f3f3f3;
+            background-color: #e9dddd;
             margin: 0;
             padding: 0;
 
@@ -44,8 +44,8 @@ image.html
         .gallery {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
-            padding: 20px;
+            gap: 50px;
+            padding: 40px;
             justify-content: center;
         }
 
@@ -54,8 +54,8 @@ image.html
             width: 300px;
             height: auto;
             cursor: pointer;
-            border-radius: 15px;
-            border: 2px solid #2be2dc;
+            border-radius: 20px;
+            border: 2px solid #2be231;
             transition: transform 0.01s;
         }
 
@@ -71,7 +71,7 @@ image.html
             top: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(144, 126, 126, 0.8);
             justify-content: center;
             align-items: center;
         }
@@ -91,7 +91,7 @@ image.html
         }
 
         .back {
-            background-color: aquamarine;
+            background-color: rgb(148, 127, 255);
         }
     </style>
     <script>
@@ -111,21 +111,18 @@ image.html
 
 <body class="back">
 
-    <h1 align="center" style="font-family: Georgia, 'Times New Roman', Times, serif;color: rgb(132, 132, 224);">
+    <h1 align="center" style="font-family: Georgia, 'Times New Roman', Times, serif;color: rgb(224, 150, 80);">
         Interactive Image Gallery</h1>
     <div class="gallery">
         <br><br><br>
-        <img src="image 1.webp" alt="Image 1" class="gallery-item" onclick="openModal(this)">
-        <img src="https://static.vecteezy.com/system/resources/thumbnails/040/697/838/small_2x/ai-generated-majestic-mountain-range-reflects-tranquil-autumn-sunset-over-serene-pond-generated-by-ai-photo.jpg"
+        <img src="fall.png" alt="Image 1" class="gallery-item" onclick="openModal(this)">
+        <img src="mountain.png"
             alt="Image 2" class="gallery-item" onclick="openModal(this)">
-        <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg"
+        <img src="autum.png"
             alt="Image 3" class="gallery-item" onclick="openModal(this)">
-        <img src="image 3.webp" alt="Image 4" class="gallery-item" onclick="openModal(this)">
-        <img src="https://img.freepik.com/premium-photo/full-moon-rising-pine-forest_198067-815898.jpg" alt="Image 5"
+        <img src="beach.png" alt="Image 4" class="gallery-item" onclick="openModal(this)">
+        <img src="tree.png" alt="Image 5"
             class="gallery-item" onclick="openModal(this)">
-        <img src="image 2.jpg" alt="Image 6" class="gallery-item" onclick="openModal(this)">
-        <img src="https://img.freepik.com/premium-photo/dark-cold-forest-night-river-along-forest-full-moon-winter-polar-landscape_379823-3756.jpg"
-            alt="Image 7" class="gallery-item" onclick="openModal(this)">
     </div>
     <div id="imageModal" class="modal" onclick="closeModal()">
         <span class="close">&times;</span>
@@ -137,14 +134,10 @@ image.html
 </html>
 ```
 ## OUTPUT:
-![alt text](<Screenshot 2025-05-02 121947.png>)
-![alt text](<Screenshot 2025-05-02 122011.png>)
-![alt text](<Screenshot 2025-05-02 122031.png>)
-![alt text](<Screenshot 2025-05-02 122054.png>)
-![alt text](<Screenshot 2025-05-02 122124.png>)
-![alt text](<Screenshot 2025-05-02 122150.png>)
-![alt text](<Screenshot 2025-05-02 122300.png>)
-![alt text](<Screenshot 2025-05-02 122218.png>)
+
+![Screenshot 2025-05-20 234958](https://github.com/user-attachments/assets/c66c0578-6ef6-4d7a-8e49-26fe6fa7215f)
+
+![Screenshot 2025-05-20 235018](https://github.com/user-attachments/assets/071f040c-48d5-40cd-9d5b-b7037dae16c0)
 
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
